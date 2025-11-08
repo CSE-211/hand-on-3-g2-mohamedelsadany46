@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Complete Web Page - Assignment</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .section {
+            margin: 30px 0;
+            padding: 25px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+        }
+        .section h2 {
+            color: #667eea;
+            margin-top: 0;
+        }
+        #about-me {
+            background-color: #e3f2fd;
+            border-left-color: #2196F3;
+        }
+        #about-me h2 {
+            color: #2196F3;
+        }
+        #skills-section {
+            background-color: #f3e5f5;
+            border-left-color: #9c27b0;
+        }
+        #skills-section h2 {
+            color: #9c27b0;
+        }
+        .skills-list {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .skills-list ul, .skills-list ol {
+            line-height: 1.8;
+        }
+        .skills-list li {
+            margin: 8px 0;
+        }
+        .image-container {
+            text-align: center;
+            margin: 25px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        .caption {
+            font-style: italic;
+            color: #666;
+            margin-top: 15px;
+            font-size: 0.95em;
+        }
+        .media-section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        video {
+            width: 100%;
+            max-width: 700px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        audio {
+            width: 100%;
+            max-width: 500px;
+            display: block;
+            margin: 20px auto;
+        }
+        .contact-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        .contact-info h2 {
+            color: white;
+            margin-top: 0;
+        }
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            padding: 8px 0;
+            font-size: 1.1em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            color: white;
+            background-color: rgba(0,0,0,0.3);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header -->
+    <div class="header">
+        <h1>My Personal Web Page</h1>
+        <p style="font-size: 1.2em; margin: 10px 0 0 0;">HTML Full Page Challenge - Hands-On 3</p>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="section" id="about-me">
+        <h2>About Me</h2>
+        <p>Hello! My name is <strong>mohamed ahmed mohamed </strong>, and I am a student learning web development. This page represents my understanding of HTML fundamentals including structure, multimedia elements, and proper use of attributes.</p>
+        <p>I created this webpage to demonstrate my ability to combine various HTML elements into a cohesive and functional web page. This assignment has helped me understand how different components work together to create an engaging user experience.</p>
+        <p>Through this project, I have learned the importance of proper HTML structure, semantic elements, and how to integrate multimedia content effectively.</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section" id="skills-section">
+        <h2>My Skills and Interests</h2>
+        
+        <div class="skills-list">
+            <h3>Technical Skills I'm Learning:</h3>
+            <ul>
+                <li><strong>HTML5:</strong> Creating structured and semantic web pages</li>
+                <li><strong>CSS3:</strong> Styling and designing beautiful layouts</li>
+                <li><strong>Web Development:</strong> Understanding client-side technologies</li>
+                <li><strong>Problem Solving:</strong> Debugging and finding solutions</li>
+                <li><strong>Responsive Design:</strong> Making websites work on all devices</li>
+            </ul>
+        </div>
+
+        <div class="skills-list">
+            <h3>My Top 5 Favorite Technologies:</h3>
+            <ol>
+                <li>HTML - The foundation of the web</li>
+                <li>CSS - Making things beautiful</li>
+                <li>JavaScript - Adding interactivity</li>
+                <li>Git - Version control system</li>
+                <li>Visual Studio Code - My favorite code editor</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="section">
+        <h2>My Photo Gallery</h2>
+        <div class="image-container">
+            <a href="https://www.github.com" target="_blank" id="photo-link">
+                <img src="myimage.jpg" alt="My personal photo showing my workspace" id="main-photo" class="gallery-image">
+            </a>
+            <p class="caption">Click on the image to visit GitHub - This is my coding workspace where I create amazing projects</p>
+        </div>
+    </div>
+
+    <!-- Video Section -->
+    <div class="section">
+        <h2>My Introduction Video</h2>
+        <p>Watch this short video I created to this project:</p>
+        <div class="media-section">
+            <video controls id="intro-video" class="main-video">
+                <source src="myvideo.mp4" type="video/mp4">
+                <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English" default>
+                Your browser does not support the video tag. Please upgrade your browser.
+            </video>
+            <p class="caption">Personal introduction video with embedded subtitles - Created specifically for this assignment</p>
+        </div>
+    </div>
+
+    <!-- Audio Section -->
+    <div class="section">
+        <h2>Audio Message</h2>
+        <p>Listen to my :</p>
+        <div class="media-section">
+            <audio controls id="personal-audio" class="audio-player">
+                <source src="myaudio.mp3" type="audio/mpeg">
+                <source src="myaudio.ogg" type="audio/ogg">
+                Your browser does not support the audio element. Please try a different browser.
+            </audio>
+            <p class="caption">My personal audio recording - A brief message about my learning experience</p>
+        </div>
+    </div>
+
+    <!-- Additional Content Section -->
+    <div class="section">
+        <h2>Why I Love Web Development</h2>
+        <p>Web development is an exciting field that combines creativity with technical skills. Here are some reasons why I am passionate about it:</p>
+        <ul class="skills-list">
+            <li>It allows me to bring ideas to life on the internet</li>
+            <li>There is always something new to learn and explore</li>
+            <li>I can create solutions that help people</li>
+            <li>The community is supportive and collaborative</li>
+            <li>It offers endless career opportunities</li>
+        </ul>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+        <h2>Contact Me</h2>
+        <p>I would love to connect with you! Feel free to reach out through any of these channels:</p>
+        <ul>
+            <li>📧 <strong>Email:</strong> mohamedsadany04@gmail.com</li>
+            <li>📱 <strong>Phone:</strong> +20 1099383690</li>
+            <li>📍 <strong>Location:</strong> new Cairo, Egypt</li>
+            <li>💻 <strong>GitHub:</strong> github.com/mohamedelsadany46</li>
+        </ul>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <p><strong>&copy; 2024 mohamed ahmed . All Rights Reserved.</strong></p>
+    <p>Created for Hands-On 3 HTML Assignment | Web Development Course</p>
+    <p>Submitted: November 2024</p>
+</footer>
+
+</body>
+</html>
